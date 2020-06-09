@@ -1,4 +1,4 @@
-package com.oauth2.autenticacao;
+package com.oauth2.autenticacao.exception;
 
 public class AutenticacaoException  extends RuntimeException {
 

@@ -1,7 +1,7 @@
 package com.oauth2.autenticacao.configuration;
 
 
-import com.oauth2.autenticacao.AutenticacaoException;
+import com.oauth2.autenticacao.exception.AutenticacaoException;
 import com.oauth2.autenticacao.dto.ErroDto;
 import com.oauth2.autenticacao.service.AutenticacaoService;
 import net.minidev.json.JSONObject;
