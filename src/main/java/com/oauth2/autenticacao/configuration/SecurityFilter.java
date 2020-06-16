@@ -36,7 +36,7 @@ public class SecurityFilter extends OncePerRequestFilter {
         try {
             String url = request.getRequestURI();
             String token = getToken(request);
-            if (url.equals("/signin") || url.endsWith("/eeftDocumentos") || url.endsWith("/anexo")) {
+            if (url.equals("/teste") || url.endsWith("/eeftDocumentos") || url.endsWith("/anexo")) {
                 filterChain.doFilter(request, response);
             } else if (autenticacaoService.isValidToken(token)) {
                 filterChain.doFilter(request, response);
